@@ -1,5 +1,6 @@
 {
     "name": "PD Meetings",
+    "scripts": {},
     "buildpacks": [
         {
             "url": "heroku/python"
