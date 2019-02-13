@@ -1,0 +1,36 @@
+site_name: PD Meetings
+site_description: "Documentação do grupo"
+site_author: "Grupo PD Meetings"
+
+# Páginas
+pages:
+    - Introdução: "index.md"
+
+# Copyright
+copyright: "Copyright &copy; 2019 PD Meetings"
+
+# Configs do tema
+theme:
+    name: "material"
+    language: "pt"
+    palette:
+        primary: "indigo"
+        accent: "indigo"
+    # logo:
+    #     icon: "pets"
+    extra:
+        search:
+            language: "pt, en"
+repo_name: "pd_meetings"
+repo_url: "https://github.com/hildersantos/pd_meetings"
+
+# Markdown
+markdown_extensions:
+    - footnotes
+    - admonition
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+          emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - toc:
+          permalink: true
