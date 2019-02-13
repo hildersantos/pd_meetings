@@ -3,7 +3,7 @@ site_description: "Documentação do grupo"
 site_author: "Grupo PD Meetings"
 
 # Páginas
-pages:
+nav:
     - Introdução: "index.md"
 
 # Copyright
