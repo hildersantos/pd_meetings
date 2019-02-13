@@ -1,1 +1,1 @@
-web: mkdocs build
+release: mkdocs build
