@@ -1,1 +1,1 @@
-release: mkdocs build
+release: ./release-tasks.sh
